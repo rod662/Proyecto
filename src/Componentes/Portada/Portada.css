@@ -1,0 +1,43 @@
+/* src/components/Portada.css */
+.fondo {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton__portada {
+  background-color: rgb(69, 123, 241);
+  color: #ffffff;
+  width: 200px;
+  height: 80px;
+  font-size: 1.5rem;
+}
+
+
+.contenedor__contenido {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.contenido_portada{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto__portada h2, p {
+  color: #ffffff;
+}
+
+.video__portada {
+  border-radius: 25px;
+  border: solid 4px rgb(150, 150, 238);
+}
+ 

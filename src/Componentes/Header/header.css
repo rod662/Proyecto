@@ -1,0 +1,43 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 150px;
+    border: solid 5px rgb(70, 108, 213);
+}
+
+.texto__header {
+    margin-left: 40px;
+}
+h1 {
+    color: rgb(70, 108, 213);
+    font-family: "Bona Nova SC", serif;
+    
+}
+
+.botones__header {
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.botones__header button:nth-child(1){
+    color: rgb(70, 108, 213);
+    border-color: rgb(70, 108, 213);
+    
+}
+
+.botones__header button:nth-child(2) {
+    color: white;
+    border-color: white;
+    
+}

@@ -1,0 +1,25 @@
+
+.videos__contenedor {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border-radius: 20px;
+    
+
+}
+
+.contenedor__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
